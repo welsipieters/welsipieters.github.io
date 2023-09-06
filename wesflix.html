@@ -1,0 +1,303 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Wesfix</title>
+    <style>
+        :root {
+  --primary-colour: #E50914;
+  --shadow-colour: black;
+  --shadow-intensity: 0.6;
+  --UIControlsSize: 30px;
+}
+
+/* ---------- Netflix SVG ---------- */
+
+.base {
+  fill: var(--primary-colour);
+  transition: fill 0.4s;
+}
+
+.shadow-start {
+  stop-color: var(--shadow-colour);
+  stop-opacity: var(--shadow-intensity);
+  
+}
+.shadow-end {
+  stop-color: var(--shadow-colour);
+  stop-opacity: 0;
+}
+
+body {
+  height: 100vh;
+  background: black;
+  overflow: hidden;
+  transition: background 0.4s;
+}
+
+.netflix-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+svg {
+  margin: 15vmin;
+}
+
+/* ---------- UI Controls ---------- */
+
+.themesContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.theme {
+  width: var(--UIControlsSize);
+  height: var(--UIControlsSize);
+  margin: 20px;
+  border-radius: 50%;
+  border: 3px solid white;
+  background: lightgray;
+  transition: transform 0.2s;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.theme:hover {
+  transform: scale(1.1);
+}
+
+.bg-colour {
+  height: 100%;
+  width: 50%;
+  transform-origin: 100% 50%;
+  transform: rotate(225deg);
+}
+    </style>
+</head>
+
+<body>
+    <div class="netflix-container"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="908px" height="235px" viewBox="0 0 908 235" version="1.1">
+        <g id="wesflix-copy" transform="translate(0.130000, 0.000000)">
+                <g class="base" id="W">
+                    <path d="M -4.50423918e-14 2.23343288e-17 36.1023296 0.133091248 60.5818045 231.7 48.8958582 233.02 45.9000266 233.321873 26.3105396 235z" id="W1-base"/>
+                    <path d="M109.540754,0 L109.52495,0.129 L110.519933,0.133091248 L134.999408,223 L100.728143,227.171103 L92.0539498,152.28 L83.2302147,229.128327 L50.6139384,232.853744 L48.9589498,233.02 L73.4384247,0.133091248 L74.4319498,0.129 L74.4176037,0 L91.9779498,0.065 L109.540754,0 Z" id="W2"/>
+                    <path d="M 120.87 2.23343288e-17 156.97233 0.133091248 182 224.74 175.646881 223.990909 147.18054 220.320818z" id="W3-base" transform="translate(151.435000, 112.370000) scale(-1, 1) translate(-151.435000, -112.370000) "/>
+                    <path d="M -4.50423918e-14 2.23343288e-17 36.1023296 0.133091248 60.5818045 231.7 48.8958582 233.02 45.9000266 233.321873 26.3105396 235z" id="W1-shadow" fill="url(#W1-shadowFill)" />
+                    <path d="M 120.87 2.23343288e-17 156.97233 0.133091248 182 224.74 175.646881 223.990909 147.18054 220.320818z" id="W3-shadow" transform="translate(151.435000, 112.370000) scale(-1, 1) translate(-151.435000, -112.370000) "  fill="url(#N3-shadowFill)"/>
+                    <defs>
+                        <linearGradient id="W1-shadowFill" x1="50%" y1="0%" x2="50%" y2="100%" gradientUnits="userSpaceOnUse">
+                            <stop class="shadow-start" offset="0%" />
+                            <stop class="shadow-end" offset="100%" />
+                        </linearGradient>
+                        <linearGradient id="W3-shadowFill" x1="50%" y1="100%" x2="50%" y2="0%" gradientUnits="userSpaceOnUse">
+                            <stop class="shadow-start" offset="0%" />
+                            <stop class="shadow-end" offset="100%" />
+                        </linearGradient>
+                    </defs>
+                </g>
+                <g class="base" id="E" transform="translate(206.470000, 0.000000)">
+                    <path d="M 101.5 171.6 101.5 208.2 0 215.8 0 178.5z" id="E1-base"/>
+                    <path d="M 101.5 171.6 101.5 208.2 0 215.8 0 178.5z" id="E1-shadow" fill="url(#E1-shadowFill)" />
+                    <path d="M 86.3 85.2 86.3 121.2 0 121.5 0 85.6z" id="E4"/>
+                    <path d="M 36.5 213.1 0 215.8 0 0 36.5 0z" id="E2-base"/>
+                    <path d="M 36.5 213.1 0 215.8 0 0 36.5 0z" id="E2-shadow" fill="url(#E2-shadowFill)"/>
+                    <path d="M 101.4 0 0 0 0 36.4 101.4 36.4z" id="E3"/>
+                          <defs>
+                            <linearGradient id="E1-shadowFill" x1="0%" y1="50%" x2="100%" y2="50%" gradientUnits="objectBoundingBox">
+                                <stop class="shadow-start" offset="0%" />
+                                <stop class="shadow-end" offset="100%" />
+                            </linearGradient>
+                            <linearGradient id="E2-shadowFill" x1="50%" y1="0%" x2="50%" y2="40%" gradientUnits="userSpaceOnUse">
+                                <stop class="shadow-start" offset="0%" />
+                                <stop class="shadow-end" offset="100%" />
+                            </linearGradient>
+                        </defs>
+                </g>
+                <path class="base" d="M380.892859,0 C411.815952,0 427.710999,18.418261 427.710999,50.6502176 L427.710999,56.9814948 L397.654909,56.9814948 L397.654909,48.6357203 C397.654909,34.246454 391.874892,28.7785327 381.759862,28.7785327 C371.644831,28.7785327 365.864814,34.246454 365.864814,48.6357203 C365.864814,63.312772 372.222833,74.2486145 393.030895,92.3790901 C419.618975,115.689702 428,132.381251 428,155.404077 C428,159.183635 427.777466,162.773253 427.334262,166.165505 C425.038854,190.439123 410.319549,204.96375 383.695658,206.817647 C352.559595,208.985731 335.124751,191.73653 332.866866,159.583089 L332,147.238464 L361.982875,145.150676 L362.990859,159.50489 C363.998843,173.859105 370.704248,178.584975 380.794639,177.882354 C383.930818,177.663973 386.751523,176.971611 389.119634,175.690018 C393.584621,172.47679 396.209905,166.468496 396.209905,157.418574 C396.209905,142.741522 389.851886,131.80568 369.043824,113.675204 C342.455744,90.3645928 334.074719,73.6730438 334.074719,50.6502176 C334.074719,18.418261 349.969766,0 380.892859,0 Z" id="S"/>
+                <g class="base" id="F" transform="translate(455.670000, 0.000000)">
+                    <path d="M 86.2 84 0.2 84 0.2 120 86.2 120z" id="F3"/>
+                    <path d="M 5.68434189e-14 0 5.68434189e-14 202.2 37 202.2 37 0z" id="F2-base"/>
+                    <path d="M 5.68434189e-14 0 5.68434189e-14 202.2 37 202.2 37 0z" id="F2-shadow" fill="url(#F2-shadowFill)" />
+                    <path d="M 102 0 5.68434189e-14 0 5.68434189e-14 36.4 102 36.4z" id="F1"/>
+                    <defs>
+                      <linearGradient id="F2-shadowFill" x1="50%" y1="0%" x2="50%" y2="40%" gradientUnits="userSpaceOnUse">
+                        <stop class="shadow-start" offset="0%" />
+                        <stop class="shadow-end" offset="100%" />
+                      </linearGradient>
+                    </defs>
+                </g>
+                <g class="base" id="L" transform="translate(581.370000, 0.000000)">
+                    <path d="M 0 0 36.4 0 36.4 205.9 0 204.1z" id="L1-base"/>
+                    <path d="M 0 0 36.4 0 36.4 205.9 0 204.1z" id="L1-shadow" fill="url(#L1-shadowFill)"/>
+                    <path d="M 0 167.5 99 173.1 99 209.1 0 204.1z" id="L2"/>
+                    <defs>
+                        <linearGradient id="L1-shadowFill" x1="50%" y1="100%" x2="50%" y2="0%" gradientUnits="userSpaceOnUse">
+                        <stop class="shadow-start" offset="0%" />
+                        <stop class="shadow-end" offset="100%" />
+                        </linearGradient>
+                    </defs>
+                </g>
+                <path class="base" d="M 710.07 0 746.57 0 746.57 214.3 710.07 211.2z" id="I"/>
+                <g class="base" id="X" transform="translate(773.970000, 0.000000)">
+                    <path d="M 3.9 0 92 227.2 133.7 232.8 43.4 0z" id="X2-base"/>
+                    <path d="M 3.9 0 92 227.2 133.7 232.8 43.4 0z" id="X2-shadow" fill="url(#X2-shadowFill)"/>
+                    <path d="M -1.13686838e-13 216.8 38.4 220.8 133.7 0 93.6 0z" id="X1"/>
+                    <defs>
+                        <linearGradient id="X2-shadowFill" x1="0%" y1="10%" x2="80%" y2="100%" gradientUnits="objectBoundingBox">
+                        <stop class="shadow-end" offset="0%" />
+                        <stop class="shadow-start" offset="50%" />
+                        <stop class="shadow-end" offset="100%" />
+                        </linearGradient>
+                    </defs>
+                </g>
+            </g>
+    </svg></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+    <script src="./MorphSVGPlugin.min.js"></script>
+    <script src="./CustomEase.min.js"></script>
+    <script>
+        // ---------- NETFLIX ANIMATION ---------- //
+
+/*
+  _   _ 
+ | \ | |
+ |  \| |
+ | . ` |
+ | |\  |
+ |_| \_| */
+const n_tl = gsap.timeline();
+n_tl
+  .to("#W1-shadow", {opacity: 0, duration: 0.5}, 0.3)
+  .to("#W3-shadow", {opacity: 0, duration: 1.5}, 0.3)
+  
+/*
+  ______ 
+ |  ____|
+ | |__   
+ |  __|  
+ | |____ 
+ |______|*/
+const e_ogShape = "M255.1 171.6V208.2L250.5 208.5L250 172L255.1 171.6Z";
+const e_tl = gsap.timeline();
+e_tl
+  .from("#E1-base", {morphSVG:{shape: e_ogShape, type: "linear"}, opacity: 0, duration: 0.15}, 0)
+  .from("#E2-base", {scaleY: 0, transformOrigin: "50% 100%", duration: 0.1}, 0.11)
+  .from("#E3", {scaleX: 0, duration: 0.06}, 0.21)
+  .from("#E4", {scaleX: 0, duration: 0.18}, 0.27)
+  .to("#E1-shadow, #E2-shadow", {opacity: 0, duration: 0.8}, 0)
+
+/*
+  _______ 
+ |__   __|
+    | |   
+    | |   
+    | |   
+    |_|*/
+const t_tl = gsap.timeline();
+t_tl
+  .from("#S", {scaleY: 0, transformOrigin: "50% 100%", duration: 0.18}, 0)
+
+
+/*
+  ______ 
+ |  ____|
+ | |__   
+ |  __|  
+ | |     
+ |_|*/
+const f_tl = gsap.timeline();
+f_tl
+  .from("#F1", {scaleX: 0, duration: 0.15}, 0)
+  .from("#F2-base", {scaleY: 0, duration: 0.33}, 0.1)
+  .from("#F3", {scaleX: 0, duration: 0.15}, 0.28)
+  .to("#F2-shadow", {opacity: 0, duration: 0.86})
+
+/*
+  _      
+ | |     
+ | |     
+ | |     
+ | |____ 
+ |______|*/
+const l_ogShape = "M540.5 167.5L546 167.781V204.371L540.5 204.1V167.5Z";
+const l_tl = gsap.timeline();
+l_tl
+  .from("#L1-base", {scaleY: 0, duration: 0.22}, 0)
+  .from("#L2", {morphSVG:{shape: l_ogShape, type: "linear"}, opacity: 0, duration: 0.1}, 0.2)
+  .to("#L1-shadow", {opacity: 0, duration: 0.83})
+
+/*
+  _____ 
+ |_   _|
+   | |  
+   | |  
+  _| |_ 
+ |_____|*/
+const i_tl = gsap.timeline();
+i_tl
+  .from("#I", {scaleY: 0, transformOrigin: "50% 100%", duration: 0.18}, 0)
+
+/*
+ __   __
+ \ \ / /
+  \ V / 
+   > <  
+  / . \ 
+ /_/ \_\*/
+const x1_ogShape = "M 0 216.8 38.4 220.8 39.78747 217.585379 1.38820244 213.584591z";
+const x2_ogShape = "M 3.9 0 4.72164448 2.11892878 44.2247435 2.12624911 43.4 0z";
+const x_tl = gsap.timeline();
+x_tl
+  .from("#X1", {morphSVG:{shape: x1_ogShape, type: "linear", shapeIndex: 2}, duration: 0.63}, 0)
+  .from("#X1", {opacity: 0, duration: 0.1,}, 0)
+  .from("#X2-base", {morphSVG:{shape: x2_ogShape, type: "linear", shapeIndex: 2}, duration: 0.53}, 0.11)
+  .from("#X2-base", {opacity: 0, duration: 0.01,}, 0.11)
+  .to("#X2-shadow", {opacity: 0, duration: 1.3}, 0)
+
+//Movement Timeline
+const movement_tl = gsap.timeline();
+movement_tl
+  .from("svg", {opacity: 0, duration: 0.7}, 0)
+  .from("svg", {xPercent:50, left:"50%",  duration: 1.9,  ease: CustomEase.create("custom", "M0,0,C0.358,0.144,0.098,1,1,1")}, 0.7)
+
+//Exit Timeline
+const exit_tl = gsap.timeline();
+exit_tl
+  .to("svg", {opacity: 0, duration: 0.5})
+
+//Master Timeline
+const master_tl = gsap.timeline({repeat: -1, repeatDelay: 1});
+master_tl
+  .add((movement_tl), 0)
+  .add((n_tl), 0.7)
+  .add((e_tl), 0.8)
+  .add((t_tl), 1.08)
+  .add((f_tl), 1.18)
+  .add((l_tl), 1.33)
+  .add((i_tl), 1.63)
+  .add((x_tl), 1.67)
+  .add((exit_tl), 6)
+ 
+// ---------- UI CONTROLS ---------- //
+const body = document.querySelector("body");
+
+
+// Colours
+const colours = [
+{theme: "white", bg: "#E50914"},  
+    ];
+
+
+document.documentElement.style.setProperty('--primary-colour', colours[0].theme);
+document.documentElement.style.setProperty('--shadow-colour', colours[0].bg);
+body.style.backgroundColor = colours[0].bg;
+
+    </script>
+</body>
+</html>
